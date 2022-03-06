@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9448D9AF-0E41-4530-BF92-3C3C0ADFCB8A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>BootstrapDemo</RootNamespace>
+    <AssemblyName>BootstrapDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <None Include="bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="bootstrap\css\bootstrap-utilities.css.map" />
+    <None Include="bootstrap\css\bootstrap-utilities.min.css.map" />
+    <None Include="bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="bootstrap\css\bootstrap.css.map" />
+    <None Include="bootstrap\css\bootstrap.min.css.map" />
+    <None Include="bootstrap\css\bootstrap.rtl.css.map" />
+    <None Include="bootstrap\css\bootstrap.rtl.min.css.map" />
+    <None Include="bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="bootstrap\js\bootstrap.esm.js.map" />
+    <None Include="bootstrap\js\bootstrap.esm.min.js.map" />
+    <None Include="bootstrap\js\bootstrap.js.map" />
+    <None Include="bootstrap\js\bootstrap.min.js.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap\css\bootstrap-grid.css" />
+    <Content Include="bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="bootstrap\css\bootstrap-grid.rtl.css" />
+    <Content Include="bootstrap\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="bootstrap\css\bootstrap-reboot.rtl.css" />
+    <Content Include="bootstrap\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="bootstrap\css\bootstrap-utilities.css" />
+    <Content Include="bootstrap\css\bootstrap-utilities.min.css" />
+    <Content Include="bootstrap\css\bootstrap-utilities.rtl.css" />
+    <Content Include="bootstrap\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\css\bootstrap.rtl.css" />
+    <Content Include="bootstrap\css\bootstrap.rtl.min.css" />
+    <Content Include="bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="bootstrap\js\bootstrap.esm.js" />
+    <Content Include="bootstrap\js\bootstrap.esm.min.js" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="images\image01.jpg" />
+    <Content Include="images\image02.jpg" />
+    <Content Include="images\image03.jpg" />
+    <Content Include="images\image04.jpg" />
+    <Content Include="images\image05.jpg" />
+    <Content Include="images\image06.jpg" />
+    <Content Include="images\image07.jpg" />
+    <Content Include="images\image08.jpg" />
+    <Content Include="Index.html" />
+    <Content Include="Index25.html" />
+    <Content Include="Index24.html" />
+    <Content Include="Index23.html" />
+    <Content Include="Index22.html" />
+    <Content Include="Index21.html" />
+    <Content Include="Index20.html" />
+    <Content Include="Index19.html" />
+    <Content Include="Index18.html" />
+    <Content Include="Index17.html" />
+    <Content Include="Index16.html" />
+    <Content Include="Index15.html" />
+    <Content Include="Index14.html" />
+    <Content Include="Index13.html" />
+    <Content Include="Index12.html" />
+    <Content Include="Index11.html" />
+    <Content Include="Index10.html" />
+    <Content Include="Index09..html" />
+    <Content Include="Index08.html" />
+    <Content Include="Index07.html" />
+    <Content Include="Index06.html" />
+    <Content Include="Index05.html" />
+    <Content Include="Index04.html" />
+    <Content Include="Index03.html" />
+    <Content Include="Index02.html" />
+    <Content Include="Index01.html" />
+    <Content Include="js\jQuery.min.js" />
+    <Content Include="styles\CustomStyles.css" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
